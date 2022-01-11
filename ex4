@@ -1,0 +1,16 @@
+Create a componet named: 'playlist'.
+
+The component will get Array<Item>.
+
+interface Item {
+  id: string,
+  label: string
+}
+
+The template should show the list of items, inside of each item there will be a button 'pinned' that can be pressed.
+When that button is clicked, the item is pinned to that position in the list and can not be moved.
+
+The component will also have a button with text: 'Shuffle'. When clicked it will shuffle ( random ) the list expect of the pinned items.
+
+Bouns : Implement a drag & drop for an item, that you can manually move an item from a position A to poistion B.
+If that item is pinned it can't be drag/moved.
