@@ -4,6 +4,7 @@ Create a select component that will get a list of options.
 Option will have:<br>
 1  ID - string;<br>
 2. Label - string;<br>
+3. Kind - string;<br>
 
 <br>
 The component will display the label string and the select value will be the id.
